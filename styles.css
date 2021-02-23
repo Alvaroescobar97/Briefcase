@@ -1,0 +1,49 @@
+.header {
+    padding: 150px 0px 100px 0px;
+}
+
+.profile-image {
+    width: 300px;
+}
+
+.line {
+    background-color: white;
+    height: 5px;
+    width: 100px;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-blue {
+    color: white;
+    background-color: rgb(29, 131, 193);
+}
+
+.icons{
+    list-style: none;
+    padding: 0;
+}
+
+.icons > li {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.icons li > i{
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+}
+
+@media (min-width: 0px) {
+    .flex-xs-column{
+        display: flex;
+        flex-direction: column;
+    }
+}
