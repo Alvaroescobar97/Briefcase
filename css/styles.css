@@ -3,7 +3,7 @@
     margin-top: 60px;
 }
 
-.margin-brief{
+.margin-nav{
     padding-top: 68px;
 }
 
@@ -46,13 +46,6 @@
     top: 15px;
 }
 
-@media (min-width: 0px) {
-    .flex-xs-column{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 .about-text{
     display: flex;
 }
@@ -60,4 +53,42 @@
 .about-text > div {
     flex-basis: calc(50%);
     text-align: justify;
+}
+
+.mid-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mid-form label {
+    display: block;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: #9b9b9b;
+}
+
+input[type="text"]{
+    width: 100%;
+    min-height: 30px;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    transition: 300ms all;
+}
+
+input[type="submit"]{
+    text-align: left;
+    display: block;
+}
+
+textarea{
+    width: 100%;
+    min-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
