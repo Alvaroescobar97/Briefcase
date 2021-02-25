@@ -40,7 +40,8 @@
     margin: 0px 5px;
 }
 
-.icons li > i{
+.icons li > a > i{
+    color: white;
     font-size: 25px;
     position: relative;
     top: 15px;
